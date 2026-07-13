@@ -1,0 +1,25 @@
+{
+  "name": "highclere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape:kaitorishouten:camera": "node scripts/scrape-kaitorishouten-camera.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optinno-ai/highclere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/optinno-ai/highclere/issues"
+  },
+  "homepage": "https://github.com/optinno-ai/highclere#readme",
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
