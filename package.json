@@ -5,8 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape:kaitorishouten:camera": "node scripts/scrape-kaitorishouten-camera.js",
-    "scrape:kaitoriwiki:camera": "node scripts/scrape-kaitoriwiki-camera.js"
+    "scrape:kaitorishouten:camera": "node scripts/kaitori/scrape-kaitorishouten-camera.js",
+    "scrape:kaitoriwiki:camera": "node scripts/kaitori/scrape-kaitoriwiki-camera.js",
+    "scrape:kaden-ichiba:camera": "node scripts/kaitori/scrape-kaden-ichiba-camera.js",
+    "scrape:1chome:camera": "node scripts/kaitori/scrape-1chome-camera.js",
+    "scrape:kaitori-rudeya:camera": "node scripts/kaitori/scrape-kaitori-rudeya-camera.js",
+    "scrape:twinkle-mobile:camera": "node scripts/kaitori/scrape-twinkle-mobile-camera.js",
+    "scrape:all": "node scripts/scrape-all.js",
+    "find:popular": "node scripts/find-popular-products.js",
+    "auth:yahoo": "node scripts/shiire/login.js yahoo",
+    "auth:rakuten": "node scripts/shiire/login.js rakuten",
+    "shiire:kojima-yahoo": "node scripts/shiire/kojima-yahoo.js"
   },
   "repository": {
     "type": "git",

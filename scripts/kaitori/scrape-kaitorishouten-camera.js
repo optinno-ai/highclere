@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TOP_URL = 'https://www.kaitorishouten-co.jp/';
-const OUTPUT_PATH = path.join(__dirname, '..', 'output', 'kaitorishouten_camera.json');
+const OUTPUT_PATH = path.join(__dirname, '..', '..', 'output', 'kaitorishouten_camera.json');
 const USER_AGENT =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
